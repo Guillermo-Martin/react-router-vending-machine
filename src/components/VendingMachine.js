@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Link } from 'react-router-dom';
 
 function VendingMachine() {
@@ -9,8 +10,7 @@ function VendingMachine() {
         <Link to="/chips">Chips</Link>
         <Link to="/cookies">Cookies</Link>
         <Link to="/candy">Candy</Link>
-      
-      
+  
     </div>
     
   );
