@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import VendingMachine from './components/VendingMachine';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>React Router Vending Machine</h1>
+      <VendingMachine />
     </div>
   );
 }
