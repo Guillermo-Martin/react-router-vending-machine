@@ -38,9 +38,23 @@
 }
 
 .active-link {
-  background-color: yellow;
+  background-color: orange;
 }
 
 img {
   width: 25%;
+}
+
+.Navbar {
+  background-color: skyblue;
+  border: 3px solid skyblue;
+}
+
+.Navbar-ul {
+  list-style: none;
+}
+
+.Navbar-lis {
+  display: flex;
+  justify-content: space-evenly;
 }
