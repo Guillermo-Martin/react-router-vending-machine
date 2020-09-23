@@ -10,12 +10,13 @@ function VendingMachine() {
         alt="vending machine" 
         className="snack"
       />
+
       <div>
-        <div>
-          <ul>
-            <li><Link to="/chips">Chips</Link></li>
-            <li><Link to="/cookies">Cookies</Link></li>
-            <li><Link to="/candy">Candy</Link></li>
+        <div className="VendingMachine-list">
+          <ul className="VendingMachine-ul">
+            <li className="VendingMachine-li"><Link to="/chips">Chips</Link></li>
+            <li className="VendingMachine-li"><Link to="/cookies">Cookies</Link></li>
+            <li className="VendingMachine-li"><Link to="/candy">Candy</Link></li>
           </ul>
         </div>
       </div>

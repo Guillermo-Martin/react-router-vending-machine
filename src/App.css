@@ -50,7 +50,7 @@ img {
   border: 3px solid skyblue;
 }
 
-.Navbar-ul {
+.Navbar-ul, .VendingMachine-ul {
   list-style: none;
 }
 
@@ -61,4 +61,14 @@ img {
 
 .snack {
   margin: 50px;
+}
+
+.VendingMachine-list {
+  border: 3px solid brown;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.VendingMachine-li {
+  margin: 1rem;
 }
